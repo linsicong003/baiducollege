@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>primary-demo2</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei UI";
+            background-color: #ddd;
+        }
+
+        p{
+            margin: 0;
+            line-height: 25px;
+        }
+
+        h2{
+            color:#888;
+        }
+
+        header{
+            background-color: #333;
+            height: 90px;
+            font-family: "Microsoft YaHei UI Light";
+        }
+
+        .nav_img{
+            height: 58px;
+            position: relative;
+            left: 55px;
+            top: 15px;
+        }
+
+        .nav{
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            top:40px;
+            color: #eee;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .nav_point{
+            margin-right: 10px;
+            color: #111;
+            font-size: 23px;
+            height: 23px;
+            line-height: 23px;
+            font-family: "Microsoft YaHei UI";
+        }
+
+        .pas_wrap{
+            border-top:2px solid #dddddd ;
+            border-left: 2px solid #ddd;
+            border-bottom: 4px solid #bbb;
+            border-right: 4px solid #bbb;
+            background-color: white;
+            width: 60%;
+            margin:1.5%;
+            padding: 30px 20px;
+            display: inline-block;
+        }
+
+        .pas_write{
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .first_text{
+            margin-left: 31px;
+        }
+
+        ul li{
+            list-style-type: none;
+        }
+
+        ol{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .img_list{
+            width: 180px;
+            height: 180px;
+            border: 2px solid #ddd;
+            position: relative;
+            margin: 20px 5px;
+        }
+
+        .img_list p{
+            position: absolute;
+            top: 25px;
+            left: 45px;
+        }
+
+        .img_list img{
+            position: absolute;
+            left: 40px;
+            top: 55px;
+        }
+
+        table{
+            width: 96%;
+            border-right: 2px solid #ddd;
+            border-bottom: 2px solid #ddd;
+            font-weight: bold;
+            font-family: "Microsoft YaHei UI Light";
+        }
+
+        td,th{
+            border-top: 2px solid #ddd;
+            border-left: 2px solid #ddd;
+        }
+
+        .footer_header{
+            border-left: 5px solid #999;
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            height: 40px;
+            line-height: 40px;
+            font-weight: bold;
+            font-family: "Microsoft YaHei UI Light";
+        }
+
+        .form_wrap{
+            width: 100%;
+            padding-left: 10%;
+            position: relative;
+            padding-bottom: 100px;
+        }
+
+        .form_detail{
+            margin-top: 20px;
+        }
+
+        .form_tip{
+            margin-left: 118px;
+            margin-top: 5px;
+            color: #999999;
+            font-size: 14px;
+        }
+
+        .form_select{
+            margin-left: 80px;
+
+        }
+
+        button{
+            width: 85%;
+            height: 50px;
+            border-radius: 12px;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: #3355cc;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: "Microsoft YaHei UI Light";
+        }
+
+        .footer{
+            width: 100%;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+
+        #form{
+            position: absolute;
+            width: 25%;
+            margin-left: 0;
+            margin-right: 2.5%;
+            top :9.5%;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="nav_img">
+        <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" height="100%">
+    </div>
+    <div class="nav">
+        <a><span class="nav_point">·</span>导航链接一</a>
+        <a><span class="nav_point">·</span>导航链接二</a>
+        <a><span class="nav_point">·</span>导航链接三</a>
+        <a><span class="nav_point">·</span>导航链接四</a>
+    </div>
+</header>
+
+<div class="pas_wrap">
+    <h1>文章一级标题</h1>
+    <h2>文章二级标题</h2>
+
+    <span class="pas_write">文章作者</span>
+    <span class="pas_write">文章文章发表时间</span>
+
+    <p class="first_text">这是一个很长的段落</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了<a href="www.baidu.com">这里有一个标签链向www.baidu.com</a>这是一个很长的段落<strong>这里还有个粗体字</strong>这是一个很长的段落</p>
+
+    <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+
+    <p>这是一个很长的段落</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了<a href="www.baidu.com" target="_blank">这是一个打开新窗口链向百度首页的链接</a> 这是一个很长的段落</p>
+</div>
+
+
+<div class="pas_wrap">
+    <h1>另一篇文章一级标题</h1>
+    <h2>文章二级标题</h2>
+
+    <span class="pas_write">文章作者</span>
+    <span class="pas_write">文章文章发表时间</span>
+
+    <p class="first_text">这是一个很长的段落</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了</p>
+    <p>这是一个很长的段落<br/>换行了<a href="www.baidu.com">这里有一个标签链向www.baidu.com</a>这是一个很长的段落<strong>这里还有个粗体字</strong>这是一个很长的段落</p>
+
+    <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+
+    <ul>
+        <li>列表项目一</li>
+        <li>列表项目二</li>
+        <li>列表项目三</li>
+    </ul>
+
+    <h2>图片</h2>
+    <ul>
+        <li>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+            <div class="img_list">
+                <p>好看的图片</p>
+                <img src="../image/primary-demo1.jpg" width="100px" height="100px">
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+
+<div class="pas_wrap">
+    <h1>另一篇文章一级标题</h1>
+    <h2>文章二级标题</h2>
+
+    <span class="pas_write">文章作者</span>
+    <span class="pas_write">文章文章发表时间</span>
+
+    <ol>
+        <li>排名1</li>
+        <li>排名2</li>
+        <li>排名3</li>
+    </ol>
+
+    <table>
+        <tr style="background-color: black;color: whitesmoke">
+            <td>表头</td>
+            <td>表头</td>
+            <td>表头</td>
+        </tr>
+
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a>操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a>操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a>操作</a></td>
+        </tr>
+
+        <tr style="background-color: #ddd">
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+</div>
+
+
+<div class="pas_wrap" id="form">
+    <div class="footer_header">这里以后是一个侧栏，这是侧栏标题</div>
+
+    <div class="form_wrap">
+        <div class="form_detail">
+            请输入邮箱地址
+            <input type="text" placeholder="这是一个文本输入框">
+        </div>
+
+        <p class="form_tip">邮箱请按要求格式输入</p>
+        <div class="form_detail">
+            <div style="margin-left: 32px;margin-bottom: 15px">
+                请输入密码
+                <input type="password" value="11111">
+            </div>
+            <div>
+                请重复输入密码
+                <input type="password" value="11111">
+            </div>
+            <p class="form_tip">密码请为6-16位英文数字</p>
+        </div>
+
+        <div class="form_detail">
+            <div>
+                <span class="form_select">性别</span>
+                <label><input type="radio" name="sex" id="male">男</label>
+                <label><input type="radio" name="sex" id="female">女</label>
+            </div>
+
+            <div class="form_detail">
+                <span class="form_select">城市</span>
+                <select>
+                    <option value="1">北京</option>
+                    <option value="2">广州</option>
+                    <option value="3">成都</option>
+                </select>
+            </div>
+
+            <div class="form_detail">
+                <span class="form_select">爱好</span>
+                <label><input type="checkbox" name="habbit" id="1">运动</label>
+                <label><input type="checkbox" name="habbit" id="2">艺术</label>
+                <label><input type="checkbox" name="habbit" id="3">科学</label>
+            </div>
+
+            <div class="form_detail">
+                <span style="margin-left: 45px;float: left ">个人描述</span>
+                <textarea style="margin-left: 10px" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+            </div>
+
+            <button>确认描述</button>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <p>版权所有@congtou</p>
+</footer>
+
+
+</body>
+</html>
